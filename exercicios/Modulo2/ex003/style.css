@@ -1,0 +1,18 @@
+@charset "UTF-08";
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  /* Medidas Absolutas:
+  cm,mm, in, px, (pt, pc - Não se usa em Tela)
+  
+  Medidas Relativas:
+  em,ex, rem,vw, vh, %
+
+  (Recomendado usar "px" e "rem")
+  */
+  font-size: medium;
+  /* Tamanho normal da fonte normalmente é de 16px 
+      16px geralmente = 1em
+  */
+}
+

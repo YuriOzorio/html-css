@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    margin: 0px;
+    }
+    header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    }
+    nav{
+     background-color: lightblue;
+     padding: 3px;
+     box-shadow: 2px 2px 2px 1px rgba(2, 0, 0, 0.596);
+    }
+    nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    margin-right: 30px;
+    }
+    nav > a:hover{
+      text-decoration: underline;
+    }
+    main{
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    }
+    article{
+    background-color: darkgrey;
+    }
+    article > aside{
+    background-color: darkcyan;
+    }
+    footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+    }
+
+    div#bola{
+      height: 100px;
+      width: 100px;
+      margin: 10px;
+      background-color: white;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos"></section>
+    <section id="noticias">
+      <article>
+        <aside>
+          <h2>Noticia sobre o Brasil</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque, quis quos velit natus delectus molestias omnis consectetur ducimus, doloribus tempora numquam inventore? Commodi iusto, cumque quidem veniam consequuntur quo?</p>
+          <p>Artigo escrito por José da Silva</p>
+        </aside>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por Pandin</p>
+  </footer>
+  <div id="bola"></div>
+</body>
+</html>

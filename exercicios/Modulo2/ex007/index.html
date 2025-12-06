@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    /* # = id
+       . = class
+       : = pseudo-class
+       :: = pseudo-element
+       > = children 
+       */
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a{
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:visited {
+      color: darkblue;
+    }
+
+    a:hover{
+      color: blueviolet;
+      text-decoration: underline;
+    }
+
+    .especial{
+      background-color: red ;
+    }
+    .especial:active {
+      color: violet;
+    }
+
+    .especial::after {
+      content: '[link]';
+      text-decoration: none;
+      font-weight: italic;
+      color: darkgray;
+    }
+  </style>
+</head>
+<body>
+  <h1>Personalizando Link</h1>
+  <ul>
+    <li><a href="https://YuriPandin.github.io" target="_blank">Repositorio Github</a></li>
+    <li><a href="https://youtube.com/YuriPandin" class="especial">Canal do Youtube</a></li>
+    <li><a href="https://cursoemvideo.com">Site do Cursoemvideo</a></li>
+  </ul>
+</body>
+</html>

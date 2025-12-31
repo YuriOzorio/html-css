@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: rgb(66, 236, 236);
+  box-shadow: 2px 2px black;
+}
+header > h1{
+  text-align: center;
+  font-style: italic;
+}
+
+header > a{
+  padding: 20px;
+  text-decoration: none;
+  color: purple;
+  text-shadow: 3px 2px rgba(120, 6, 148, 0.164);
+}
+
+header > a:hover{
+  color: green;
+  font-size: large;
+}
+
+main{
+  margin-top: 40px;
+  text-align: center;
+}
+
+main > button{
+  margin-top: 10px;
+  color: purple;
+}

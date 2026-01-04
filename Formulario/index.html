@@ -41,11 +41,11 @@
           
           <!-- Genero -->
           <p>Genero:</p>
-          <input id="Feminino" type="radio" name="Feminino" value="Feminino">
+          <input id="Feminino" type="radio" name="Genero" value="Feminino">
           <label for="Feminino">Feminino</label>
-          <input id="Masculino" type="radio" name="Masculino" value="Masculino">
+          <input id="Masculino" type="radio" name="Genero" value="Masculino">
           <label for="Masculino">Masculino</label>
-          <input id="notInformed" type="radio" name="notInformed" value="notInformed">
+          <input id="notInformed" type="radio" name="Genero" value="notInformed">
           <label for="notInformed">Prefiro nao informar</label>
           <br>
 
@@ -111,7 +111,7 @@
         <input id="X" type="checkbox" name="X" value="X">
         <label for="X">X</label>
         <br>
-
+        <br>
         <label for="musicStyle">Estilo Musical:</label>
         <input list="styleTypes" id="musicStyle" name="musicStyle" type="text">
         <datalist id="styleTypes">
@@ -121,13 +121,32 @@
           <option value="Sertanejo">
         </datalist>
         <br>
+        
         <label for="favoriteColor">Cor favorita</label>
         <input type="color" name="userFavoriteColor" id="favoriteColor">
       
       </fieldset>
       
-      
-      
+      <fieldset>
+        <legend>Feedback</legend>
+        <p>Satisfação:</p>
+        <input type="radio" name="Feedback" id="otimo">
+        <label for="otimo">Ótima</label>
+
+        <input type="radio" name="Feedback" id="boa">
+        <label for="boa">Boa</label>
+
+        <input type="radio" name="Feedback" id="regular">
+        <label for="regular">Regular</label>
+
+        <input type="radio" name="Feedback" id="ruim">
+        <label for="ruim">Ruim</label>
+        <br>
+        <br>
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea name="userComentario" id="comentarios"></textarea>
+
+      </fieldset>
       
         <button type="submit">Enviar</button>
     </form>
